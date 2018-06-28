@@ -1,0 +1,21 @@
+@font-face {
+    font-family:'rogueheroacad';
+    src:url('../fonts/rogueheroacad.ttf');
+}
+.wrapper {
+    padding:0;
+    margin:0;
+}
+body {
+    
+    background:url('../images/backDeadpool.jpg');
+}
+.title {
+    margin-top:40px;
+}
+.title li {
+    font-size:55px;
+    font-family:'rogueheroacad';
+    color:#fff;
+    list-style: none;
+}
