@@ -7,15 +7,35 @@
     margin:0;
 }
 body {
-    
-    background:url('../images/backDeadpool.jpg');
+    background:#4A0116 url('../images/backDeadpool.jpg')no-repeat;
+    background-attachment: fixed;
 }
 .title {
-    margin-top:40px;
+    margin-top:20px;
+        position: fixed;
+
 }
 .title li {
     font-size:55px;
     font-family:'rogueheroacad';
-    color:#fff;
+    color:#000;
     list-style: none;
+    text-shadow:2px 2px 2px #d2d2d2;
+}
+.middleImg {
+    float:right;
+ margin:25px 55px;
+
+}
+
+.middleImg img {
+    width:500px;
+    padding:5px;
+    filter:grayscale(100%);
+    transition:.75s;
+    display:block;
+}
+.middleImg img:hover {
+    filter:grayscale(0);
+    box-shadow:2px 5px 25px #000;
 }
